@@ -62,8 +62,32 @@ bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hu
 type bigBed
 visibility dense
 shortLabel ID-PA_vs_ID-BN_peak_intervals
-longLabel _peak_intervals
+longLabel ID-PA_vs_ID-BN_peak_intervals
 maxHeightPixels 500:150:8
 viewLimits 0:500
 priority 6
 
+
+
+track IP-PA_vs_IPcon-PA
+type bigWig -10 10
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub3/IP_PA_against_IPcon_PA.bw
+visibility full
+shortLabel IP-PA_vs_IPcon-PA
+longLabel IP-PA_vs_IPcon-PA
+maxHeightPixels 500:300:8
+autoScale on
+#viewLimits -3:3
+#viewLimitsMax -10:10
+priority 7
+
+
+track IP-PA_vs_IPcon-PA_peak_intervals
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub3/IP_PA_against_IPcon_PA_peaks.bb
+type bigBed
+visibility dense
+shortLabel IP-PA_vs_IPcon-PA_peak_intervals
+longLabel IP-PA_vs_IPcon-PA_peak_intervals
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 8
