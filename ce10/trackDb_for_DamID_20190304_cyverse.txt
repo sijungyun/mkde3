@@ -32,3 +32,13 @@ autoScale on
 #viewLimits -3:3
 #viewLimitsMax -10:10
 priority 3
+
+track ID-BN_peaks
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub3/ID_BN_peaks.bb
+type bigBed
+visibility dense
+shortLabel ID-BN_peaks
+longLabel ID-BN_peaks
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 4
