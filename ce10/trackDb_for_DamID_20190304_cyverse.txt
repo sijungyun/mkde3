@@ -10,17 +10,6 @@ autoScale on
 #viewLimitsMax -10:10
 priority 1
 
-track GATC_sites
-bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/GATC_sites.ce10.bb
-type bigBed
-visibility dense
-shortLabel GATC_sites
-longLabel GATC_sites
-maxHeightPixels 500:150:8
-viewLimits 0:500
-priority 2
-
-
 track IP-PA_vs_IP-BN_peak_intervals
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub3/IP_PA_against_IP_BN_peaks.bb
 type bigBed
@@ -29,8 +18,17 @@ shortLabel IP-PA_vs_IP-BN_peak_intervals
 longLabel IP-PA_vs_IP-BN_peak_intervals
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 3
+priority 2
 
+track GATC_sites
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/GATC_sites.ce10.bb
+type bigBed
+visibility dense
+shortLabel GATC_sites
+longLabel GATC_sites
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 3
 
 track ID-PA_vs_ID-BN
 type bigWig -10 10
