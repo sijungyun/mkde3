@@ -5,6 +5,7 @@ visibility full
 shortLabel ID-PA
 longLabel DamID on PA
 maxHeightPixels 500:300:8
-viewLimits -3:3
-viewLimitsMax -10:10
+autoScale on
+#viewLimits -3:3
+#viewLimitsMax -10:10
 priority 1
