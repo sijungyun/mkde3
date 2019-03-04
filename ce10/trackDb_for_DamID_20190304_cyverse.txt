@@ -1,0 +1,10 @@
+track ID-PA
+type bigWig -10 10
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub3/ID_PA.bw
+visibility full
+shortLabel ID-PA
+longLabel DamID on PA
+maxHeightPixels 500:300:8
+viewLimits -3:3
+viewLimitsMax -10:10
+priority 1
